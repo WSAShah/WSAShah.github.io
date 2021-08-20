@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Staatliches&display=swap');
+
+
+*{
+    margin: 0;
+    font-family: 'Staatliches', cursive;
+    color: rgb(56, 59, 63);
+}
+.navbar{
+    padding: 20px ;
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    border-bottom: 1px solid magenta;
+}
+
+.navbar h1{
+    color: midnightblue;
+}
+
+.navbar .nav-links{
+    margin-left: auto;
+}
+
+.navbar a{
+    text-decoration: none;
+    margin-left: 15px;
+    padding: 10px;
+}
+.navbar a:hover{
+    color: orange;
+}
+
+.container{
+    max-width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.selected-item{
+    padding: 10px;
+    margin: 20px 0;
+    border-bottom: 1px solid #1168a1;
+}
+
+.selected-item a h2:hover{
+    box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.selected-item h2{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(47, 69, 197);
+}
+#edit{
+    background-color: rgb(238, 212, 202);
+}
+
+li{
+    font-size: 25px;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.button{
+    padding: 60px 50px;
+    align-content: center;
+
+}
+.selected-item a{
+    font-size: 50px;
+}
+
+h1{
+    margin: 0 auto;
+}
+
+.box{
+    list-style: none;
+    width: 300px;
+    height: 300px;
+    background:none;
+    margin: 4% 43% 0;
+    overflow: hidden;
+    background-image: url(./website/elira.png);
+    background-size: cover;
+}
